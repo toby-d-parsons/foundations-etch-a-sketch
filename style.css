@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.grid-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.grid-item {
+    // border: solid black;
+    // color: red;
+    box-sizing: border-box;
+    border: solid black 0.25px;
+    aspect-ratio: 1;
+}
+
+.hover-item {
+    background-color: green;
+}
