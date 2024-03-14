@@ -22,3 +22,7 @@
 .hover-item {
     background-color: green;
 }
+
+.button-selected {
+    background-color: darkgray;
+}
