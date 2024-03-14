@@ -14,9 +14,16 @@ function createGrid(dimension) {
         div.style.cssText = `flex-basis: ${1 / dimension * 100}%`;
         div.addEventListener("mouseover", function() {
             // div.classList.add("hover-item");
-            div.style.backgroundColor = "green";
+            div.style.backgroundColor = "#"+randomColor();
         });
     }
+}
+
+function randomColor() {
+    let color = '';
+    while (color.length < 6) {
+        color += Math.floor(Math.random() * 16).toString(16);
+    } return color;
 }
 
 
